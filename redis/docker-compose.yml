@@ -1,0 +1,10 @@
+version: '2'
+services:
+  db:
+    image: redis
+    volumes:
+      - ./data/redis:/data
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - "6379:6379"
