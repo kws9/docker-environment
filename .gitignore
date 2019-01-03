@@ -1,3 +1,4 @@
 elastic_search/es_data/
 mysql_5.7/db/
 redis/data/
+crowi/data/
